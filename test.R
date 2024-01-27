@@ -10,7 +10,7 @@ library(SimpLin)
 
 set.seed(1)
 x <- rnorm(10)
-y <- 2 + x + rnorm(10)
+y <- 2 + x + rnorm(10) + 6
 
 lm(y ~ x)
 SimpLinCpp(x, y)
