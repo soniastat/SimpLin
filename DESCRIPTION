@@ -1,0 +1,15 @@
+Package: SimpLin
+Type: Package
+Title: Simple Linear Regression Model
+Version: 1.0
+Date: 2024-01-27
+Author: Sonia
+Maintainer: Sonia <soniast@colostate.edu>
+Description: I will esatimate the regression parameters
+License: GLS (>=3)
+Imports: Rcpp (>= 1.0.12)
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

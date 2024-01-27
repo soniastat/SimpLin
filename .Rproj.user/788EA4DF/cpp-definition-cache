@@ -1,0 +1,66 @@
+[
+    {
+        "file": "/Users/sonia/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/src/Rcpp_Code.cpp",
+        "file_last_write": 1706391629.0,
+        "definitions": [
+            {
+                "usr": "c:@F@SimpLinCpp#$@N@Rcpp@S@Vector>#VI14#@N@Rcpp@ST>1#T@PreserveStorage#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "SimpLinCpp(NumericVector, NumericVector)",
+                "file": "/Users/sonia/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/src/Rcpp_Code.cpp",
+                "line": 6,
+                "column": 6,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/Users/sonia/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/src/rcpparma_hello_world.cpp",
+        "file_last_write": 1706390956.0,
+        "definitions": [
+            {
+                "usr": "c:@F@rcpparma_hello_world#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpparma_hello_world",
+                "file": "/Users/sonia/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/src/rcpparma_hello_world.cpp",
+                "line": 18,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@rcpparma_outerproduct#&1$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpparma_outerproduct(const arma::colvec &)",
+                "file": "/Users/sonia/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/src/rcpparma_hello_world.cpp",
+                "line": 30,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@rcpparma_innerproduct#&1$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpparma_innerproduct(const arma::colvec &)",
+                "file": "/Users/sonia/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/src/rcpparma_hello_world.cpp",
+                "line": 38,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@rcpparma_bothproducts#&1$@N@arma@S@Col>#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "rcpparma_bothproducts(const arma::colvec &)",
+                "file": "/Users/sonia/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/src/rcpparma_hello_world.cpp",
+                "line": 47,
+                "column": 12,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]
