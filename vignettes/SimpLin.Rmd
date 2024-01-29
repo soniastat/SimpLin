@@ -17,3 +17,24 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(SimpLin)
 ```
+
+
+Let us consider the simple linear regression model $y = \beta_0 + \beta_1 x + \epsilon$, where $x$ is the covariate, $y$ is the response, $\beta_0$ and $\beta_1$ are the regression coefficients, and $\epsilon$ is the error term considering $\epsilon \sim N(0, \sigma^2),$ where $\sigma^2$ is the constant error variance.
+
+We can estimate the regression parameters by minimizing the error sum of squares $\sum_{i = 1}^n \epsilon^2_i$.
+
+- The estimated values of the regressions coefficients are $\hat{\beta_0} = \bar{y} - \hat{\beta_1} \bar{x}$, and $\hat{\beta_1} = \frac{\sum_{i = 1}^n (x_i - \bar{x}) (y_i - \bar{y})}{\sum_{i = 1}^n (x_i - \bar{x})^2}$.
+
+- The corresponding standard errors are $se(\hat{\beta_0}) = \sqrt{\frac{s^2 \sum_{i = 1}^n x_i^2}{n \sum_{i = 1}^n (x_i - \bar{x})^2}}$, and $se(\hat{\beta_1}) = \sqrt{\frac{s^2}{\sum_{i = 1}^n (x_i - \bar{x})^2}}$, where $s^2 = \frac{\sum_{i = 1}^n (y_i - \hat{y_i})^2}{(n - 2)}$ and $\hat{y}_i$ is the predicted response of the $i^{th}$ observation.
+
+- The $95\%$ CI of $\hat{\beta_0}$ is $\hat{\beta_0} \pm z_{0.975} se(\hat{\beta_0}).$
+
+- The $95\%$ CI of $\hat{\beta_1}$ is $\hat{\beta_1} \pm z_{0.975} se(\hat{\beta_1})$, where $z_0.975$ is the $97.5^{th}$ quantile of the standard normal distribution.
+
+- The residuals are $e_i = y_i - \hat{y_i},~ i = 1, 2, \cdots, n$
+
+- The predicted response are  $\hat{y_i} = \hat{\beta_0} + \hat{\beta_1} x_i,~ i = 1, 2, \cdots, n$
+
+
+Using this package, we can calculate the above values by providing the numeric vectors of same length $x$ and $y$.
+
