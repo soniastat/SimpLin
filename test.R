@@ -16,3 +16,4 @@ lm(y ~ x) # in-built R code
 SimpLinCpp(x, y) # My SimpLin code
 
 # usethis::use_vignette("SimpLin") ## Build vignette
+

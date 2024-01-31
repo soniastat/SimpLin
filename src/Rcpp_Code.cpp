@@ -21,7 +21,7 @@ List SimpLinCpp(NumericVector x, NumericVector y) {
   double se_beta1 = sqrt(s_sq / ss_x);
   
   // Compute confidence intervals (95%)
-  double z_value = R::qnorm(0.975, 0.0, 1.0, 1, 0);
+  double z_value = R::qt(.025, n-2, true, false);
   NumericVector ci_beta0 = NumericVector::create(beta0 - z_value * se_beta0, beta0 + z_value * se_beta0);
   NumericVector ci_beta1 = NumericVector::create(beta1 - z_value * se_beta1, beta1 + z_value * se_beta1);
   

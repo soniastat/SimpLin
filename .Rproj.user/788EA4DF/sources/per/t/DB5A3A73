@@ -3,7 +3,7 @@
     "path": "~/Desktop/Old Laptop/CSU Life/Spring 2024/STAT 600/HW/HW 1/SimpLin/test.R",
     "project_path": "test.R",
     "type": "r_source",
-    "hash": "383236300",
+    "hash": "523377040",
     "contents": "",
     "dirty": false,
     "created": 1706391643900.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "5,13",
+        "cursorPosition": "17,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1706392258,
+    "lastKnownWriteTime": 1706646741,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1706392258,
+    "last_content_update": 1706646741939,
     "read_only": false,
     "read_only_alternatives": []
 }
